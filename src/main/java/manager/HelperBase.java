@@ -57,4 +57,18 @@ public class HelperBase {
         }
     }
 
+    public String getMessage() {
+        //WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+        // String text = element.getText();
+        // return text;
+        //pause(5000);
+        //return                                  .contact-page_message__2qafk>h1
+          //      wd.findElement(By.cssSelector("div[class='contact-page_message__2qafk'] h1")).getText();
+        //WebDriverWait wait = new WebDriverWait(wd, 7);
+        //boolean res = wait.until(ExpectedConditions.textToBePresentInElement
+        // String x= wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")), "No Contacts here!"));
+        String x = wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")).getText();
+        return x;
+        //return res;
+    }
 }

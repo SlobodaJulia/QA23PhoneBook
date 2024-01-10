@@ -41,8 +41,8 @@ public class HelperUser extends HelperBase{
 
 
 
-    public void submitLogin(){
-        click(By.xpath("//button[text()='Login']"));
+    public void submit(){
+        click(By.xpath("//button[text()='Registration']"));
 
     }
     public boolean isLogged() {
