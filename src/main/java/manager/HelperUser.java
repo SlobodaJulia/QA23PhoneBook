@@ -62,7 +62,11 @@ public class HelperUser extends HelperBase{
                         "No Contacts here!"));
     }
 
-
+    public void login(User user) {
+        openLoginRegistForm();
+        fillLoginRegistrationForm(user);
+        submit();
+    }
 
 }
 
