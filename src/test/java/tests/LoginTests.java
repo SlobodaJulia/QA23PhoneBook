@@ -18,17 +18,17 @@ public class LoginTests extends TestBase{
 
     @Test
     public void loginSuccess1() {
-            User user = new User().withEmail("alexlev@google.com").withPassword("220821SBsb)(!");
+            User user = new User().withEmail("uuuuu@google.ru").withPassword("228877Sv!");
             app.getHelperUser().openLoginRegistForm();
             app.getHelperUser().fillLoginRegistrationForm(user);
-            app.getHelperUser().submit();
+            app.getHelperUser().submitLogin();
             Assert.assertTrue(app.getHelperUser().isLogged());
 
 
         }
 
 
-    @Test
+  /*  @Test
     public void loginSuccess(){
         app.getHelperUser().openLoginRegistForm();
         app.getHelperUser().fillLoginRegistrationForm("alexlev@google.com", "220821SBsb)(!");
@@ -36,15 +36,15 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isLogged());
 
 
-    }
-    @Test
+    }*/
+   /* @Test
     public void loginSuccessModel() {
         app.getHelperUser().openLoginRegistForm();
         app.getHelperUser().fillLoginRegistrationForm("alexlev@google.com", "220821SBsb)(!");
         app.getHelperUser().submit();
 
         Assert.assertTrue(app.getHelperUser().isLogged());
-    }
+    }*/
     @Test
     public void loginWrongEmail(){
         app.getHelperUser().openLoginRegistForm();

@@ -29,7 +29,7 @@ public class RegistTest extends TestBase {
         int z = (int)System.currentTimeMillis()/1000%3600;
         User user = new User()
                 .withEmail("mark"+z+"@gmail.com")
-                .withPassword("Spuppu98333542$)(");
+                .withPassword("Spuppu98333542$");
         app.getHelperUser().openLoginRegistForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submit();
