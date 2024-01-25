@@ -1,0 +1,6 @@
+21:14:32.461 INFO  manager.ApplicationManager - All tests run in Chrome browser
+21:14:33.409 INFO  manager.ApplicationManager - The link----->https://telranedu.web.app/home
+21:14:39.335 INFO  tests.TestBase - before method need log in
+21:14:39.353 INFO  tests.TestBase - Name of method----->addContactSuccessRequiredFields
+21:14:42.963 INFO  tests.TestBase - Contact was added
+21:14:43.040 INFO  tests.TestBase - Contact was added

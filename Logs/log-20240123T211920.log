@@ -1,0 +1,6 @@
+21:19:22.895 INFO  manager.ApplicationManager - All tests run in Chrome browser
+21:19:23.845 INFO  manager.ApplicationManager - The link----->https://telranedu.web.app/home
+21:19:29.764 INFO  tests.TestBase - before method need log in
+21:19:29.779 INFO  tests.TestBase - Name of method----->addNewContactWrongName
+21:19:29.810 INFO  tests.TestBase - Tests run with data: --->Contact(name=, lastName=Stark, phone=323265934562, email=stark@gmail.com, address=NY, description=empty name)
+21:19:32.683 INFO  tests.TestBase - Contact was not added and page is still displayed
