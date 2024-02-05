@@ -1,0 +1,26 @@
+16:12:25.586 INFO  manager.ApplicationManager - All tests run in Chrome browser
+16:12:26.284 INFO  manager.ApplicationManager - The link----->https://telranedu.web.app/home
+16:12:26.429 INFO  tests.TestBase - Name of method----->loginSuccess1
+16:12:26.434 INFO  manager.ListenerWD - before find element: By.xpath: //*[text()='Sign Out']
+16:12:31.519 INFO  manager.ListenerWD - element found success: By.xpath: //*[text()='Sign Out']
+16:12:31.521 INFO  tests.TestBase - Start test with name `login success` 
+16:12:31.522 INFO  tests.TestBase - Test data:-------> email:'uuuuu@google.ru' password: '228877Sv!'
+16:12:31.524 INFO  manager.ListenerWD - before find element: By.xpath: //a[text()='LOGIN']
+16:12:31.558 INFO  manager.ListenerWD - element found success: By.xpath: //a[text()='LOGIN']
+16:12:31.570 INFO  manager.ListenerWD - start method click on:[[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //a[text()='LOGIN']]
+16:12:31.665 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //a[text()='LOGIN']]
+16:12:31.666 INFO  manager.ListenerWD - before find element: By.cssSelector: input[placeholder='Email']
+16:12:31.720 INFO  manager.ListenerWD - element found success: By.cssSelector: input[placeholder='Email']
+16:12:31.720 INFO  manager.ListenerWD - start method click on:[[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> css selector: input[placeholder='Email']]
+16:12:31.920 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> css selector: input[placeholder='Email']]
+16:12:32.233 INFO  manager.ListenerWD - before find element: By.xpath: //input[@placeholder='Password']
+16:12:32.256 INFO  manager.ListenerWD - element found success: By.xpath: //input[@placeholder='Password']
+16:12:32.256 INFO  manager.ListenerWD - start method click on:[[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //input[@placeholder='Password']]
+16:12:32.317 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //input[@placeholder='Password']]
+16:12:32.501 INFO  manager.ListenerWD - before find element: By.xpath: //button[text()='Login']
+16:12:32.520 INFO  manager.ListenerWD - element found success: By.xpath: //button[text()='Login']
+16:12:32.520 INFO  manager.ListenerWD - start method click on:[[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //button[text()='Login']]
+16:12:32.583 INFO  manager.ListenerWD - done method click on: [[ChromeDriver: chrome on WINDOWS (707cf29ece369ff789d80c27351ce69d)] -> xpath: //button[text()='Login']]
+16:12:32.584 INFO  manager.ListenerWD - before find element: By.xpath: //*[text()='Sign Out']
+16:12:33.559 INFO  manager.ListenerWD - element found success: By.xpath: //*[text()='Sign Out']
+16:12:33.562 INFO  tests.TestBase - Assert checks if button 'sign out' present
